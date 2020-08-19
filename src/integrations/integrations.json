@@ -59,6 +59,11 @@
     "link": "*://*.capsulecrm.com/*",
     "script": "capsulecrm.js"
   },
+  "checkvist.com": {
+    "name": "Checkvist",
+    "link": "*://checkvist.com/*",
+    "script": "checkvist.js"
+  },
   "clickup.com": {
     "name": "ClickUp",
     "link": "*://*.clickup.com/*",
