@@ -1,5 +1,5 @@
 clockifyButton.render(
-    '.task.leafItem > .coreDiv:not(.task_closed):not(.clockify)',
+    '.task.leafItem > .coreDiv:not(.task_closed):not(.task_invalidated):not(.clockify)',
     { observe: true },
     function (coreDiv) {
         const task = coreDiv.parentElement;
